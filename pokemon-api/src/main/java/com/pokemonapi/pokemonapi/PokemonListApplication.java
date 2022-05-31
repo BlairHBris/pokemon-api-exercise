@@ -1,13 +1,13 @@
-package com.somedomain.someapp;
+package com.pokemonapi.pokemonapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SomeAppApplication {
+public class PokemonListApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SomeAppApplication.class, args);
+		SpringApplication.run(PokemonListApplication.class, args);
 	}
 
 }

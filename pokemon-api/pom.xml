@@ -9,10 +9,10 @@
 		<relativePath/>
 		<!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.some-domain</groupId>
-	<artifactId>some-app</artifactId>
+	<groupId>com.pokemonapi</groupId>
+	<artifactId>pokemon-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>some-app</name>
+	<name>pokemon-list</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>

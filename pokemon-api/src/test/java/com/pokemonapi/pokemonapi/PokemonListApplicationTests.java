@@ -1,10 +1,10 @@
-package com.somedomain.someapp;
+package com.pokemonapi.pokemonapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SomeAppApplicationTests {
+class PokemonListApplicationTests {
 
 	@Test
 	void contextLoads() {
