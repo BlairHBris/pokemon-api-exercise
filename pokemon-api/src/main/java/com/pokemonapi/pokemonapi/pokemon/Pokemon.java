@@ -23,6 +23,6 @@ public class Pokemon {
     @Column(name = "name")
     private String name;
 
-    @Column(name = "id")
+    @Column(name = "image")
     private String image;
 }
