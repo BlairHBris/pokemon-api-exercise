@@ -17,12 +17,9 @@ public class Pokemon {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
 
-    @Column(name = "id")
-    private Number idNumber;
-
     @Column(name = "name")
     private String name;
 
-    @Column(name = "image")
-    private String image;
+    @Column(name = "front_default")
+    private String front_default;
 }
