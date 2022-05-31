@@ -44,7 +44,7 @@ public class PokemonController {
 
   @PostMapping
   @ResponseStatus(HttpStatus.CREATED)
-  public Map<String, Pokemon> create(@Validated @RequestBody Pokemon someResource) {
+  public Map<String, Pokemon> create(@Validated @RequestBody Pokemon pokemon) {
     Pokemon createdPokemon = pokemonService.create(pokemon);
     return createHashSingular(createdPokemon);
   }
@@ -65,7 +65,7 @@ public class PokemonController {
     pokemonService.deleteById(id);
   }
 
-  private Map<String, Pokemon> createHashSingular(Pokemon someResource){
+  private Map<String, Pokemon> createHashSingular(Pokemon pokemon){
     Map<String, Pokemon> response = new HashMap<String, Pokemon>();
     response.put("pokemon", pokemon);
 
