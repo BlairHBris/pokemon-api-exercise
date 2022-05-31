@@ -1,5 +1,28 @@
 package com.pokemonapi.pokemonapi.pokemon;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Table;
+import javax.persistence.Id;
+import javax.persistence.Column;
+
+import lombok.Data;
+
+@Entity
+@Data
+@Table(name = "pokemon")
 public class Pokemon {
-    
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private long id;
+
+    @Column(name = "id")
+    private Number idNumber;
+
+    @Column(name = "name")
+    private String name;
+
+    @Column(name = "id")
+    private String image;
 }
